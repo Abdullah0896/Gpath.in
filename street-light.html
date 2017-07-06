@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>GPatH </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="themes/assets/css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index2.html">GPatH</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class=""><a href="index2.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><a href="ourservices.html">Our Services</a></li>
+                  </ul>
+                  </li>
+				<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Intermediate Projects<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                    <li ><a href="transformer.html">Transformer</a></li>
+                    <li><a href="Half-wave-rectifier.html">Half Wave Rectifier</a></li>
+                    <li><a href="full-wave-rectifier.html">Full Wave Rectifier</a></li>
+                    <li><a href="Fire%20Alarm.html">Fire Alarm</a></li>
+                    <li ><a href="rain-alarm.html">Rain Alarm</a></li>
+                    <li ><a href="Water-Level-Indicator.html">Water Level Indicator</a></li>
+                    <li ><a href="street-light.html">Street Light</a></li>
+                    <li ><a href="traffic-light.html">Traffic Light</a></li>
+                    <li><a href="Bridge-Rectifier.html">Bridge Rectifier</a></li>
+                    <li ><a href="electronic_eye.html">Electronic Eye</a></li>
+                    <li><a href="or-gate.html">OR Gate</a></li>
+                    <li ><a href="And.html">AND Gate</a></li>
+                    <li ><a href="Not.html">NOT Gate</a></li>
+                    </ul>
+                      </li>
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Engineering Projects<b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="autocad.html">On AutoCAD</a></li>
+                              <li><a href="Ansis.html">On ANSYS</a></li>
+                              <li><a href="stad.html">On STAAD Pro</a></li>
+                              <li><a href="matlab.html">On MATLAB</a></li>
+                              <li><a href="web.html">On Web Development</a></li>
+                              <li><a href="App.html">On App Developmet</a></li>
+                          </ul>
+                      </li>
+                      <li class="dropdown"><a href="Research.html" >Research Papers<b class="caret"></b></a></li>
+                      
+                  </ul>
+                </li>
+                <li ><a href="contact.html">Contact Us</a></li>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+	<div class="pageTitle">
+	<div class="container">
+	<h2><center>Street Light</center></h2>
+	</div>
+	</div>
+	
+	 <div class="container">
+	 <div class="bodyInner">
+			
+	</div>
+	</div>
+	
+	
+
+	<p class="lead"><B>Street</B> Light needs no manual operation for switching ON and OFF. When there is a need of light it 
+automatically switches ON. When darkness rises to a certain level then sensor circuit 
+gets activated and switches ON and when there is other source of light i.e. daytime, 
+the street light gets OFF.  The sensitiveness of the street light can also be adjusted.</p>
+<center><br><IMG class="img-circle" src="street%20light.jpg" ></center></IMG>
+<br><p class="lead"><B>Working of Street Light:</B> 
+This circuit uses a popular timer I.C 555. I.C 555 is connected as comparator
+with pin-6 connected with positive rail, the output goes high(1) when the trigger pin 2 is 
+at lower then 1/3rd level of the supply voltage. Conversely the output goes low (0) when it 
+is above 1/3rd level. So small change in the voltage of pin-2 is enough to change the level 
+of output (pin-3) from 1 to 0 and 0 to 1. The output has only two states high and low and 
+can not remain in any intermediate stage. It is powered by a 6V battery for portable use. The 
+circuit is economic in power consumption. Pin 4, 6 and 8 is connected to the positive supply 
+and pin 1 is grounded. To detect the present of an object LDR is used and a source of 
+light.
+
+LDR is a special type of resistance whose value depends on the brightness of the 
+light which is falling on it. It has resistance of about 1 mega ohm when in total 
+darkness but a resistance of only about 5k ohms when brightness illuminated. It responds 
+to a large part of light spectrum. We have made a potential divider circuit with LDR and 
+100K variable resistance connected in series. We know that voltage is directly proportional 
+to conductance so more voltage we will get from this divider when LDR is getting light and 
+low voltage in darkness. This divided voltage is given to pin 2 of IC 555. Variable resistance
+is so adjusted that it crosses potential of 1/3rd in brightness and fall below 1/3rd in darkness.
+
+Sensitiveness can be adjusted by this variable resistance. As soon as LDR gets dark the voltage
+of pin 2 drops 1/3rd of the supply voltage and pin 3 gets high and LED or buzzer which is
+connected to the output gets activated.<br></p>
+                
+                <center><h2 ><b>Price: Rs. 350</b></h2></center>
+                <a href="contact.html">
+                    <center><button class="btn button-primary" style="width: 100px; height: 50px"><b>Buy</b></button></center>
+</a><br>
+        
+	<div class="introSection">
+		<div class="container">
+		<div class="row">
+		<div class="col-lg-5">
+		<h3>GPatH</h3>
+		<p>
+		Get Project at Home is a group where we work the desired <br>projects and provide it at your doorstep. The site is for quicker <br>and reliable services. So,we respect our customer and try our<br> best to satisfy you in the best way possible. 
+		
+		</p>
+		</div>
+		
+		<div class="col-lg-4">
+		<h3>You are in Luck: We are small.</h3>
+		<p>
+		<br>When you pay a big company. You are paying for expensive advertising,salaries,etc. When you hire<br> us, you save 30-50% of those cost. We do our own,<br>which must be pretty good, since you finfd us.<br>
+		
+		</p>
+		
+		</div>
+		
+		<div class="col-lg-3">
+		<h3>What Can We Design For You?</h3>
+		<p>
+		We're always open to new challenges and ideas. If you don't see something on the list, let's chat about the possibilities. Give us a call to discuss your situation and see that we're perfect fit for your project. Chances are, we'll not only meet your needs, but exceed your expectations.
+		
+		</p>
+		
+		</div>
+		
+		</div>
+		</div>
+	</div>
+
+
+      <!-- FOOTER -->
+      <footer>
+		<div id="div0" class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2016 Company, Inc. &middot; Privacy &middot; <a href="t&c.html">Terms and Conditions</a>
+       &nbsp;&nbsp;&nbsp; <a href="https://m.facebook.com/gpath.in/?ref=bookmarks"><img class="circle" src="ico_fb.png" width="50px" height="50px"  ></a>
+                
+            <a href="https://twitter.com/GPatH08"><img  class="circle" src="tw.png" width="50px" height="50px" href="#"></a>
+        &nbsp;<a href="https://www.linkedin.com/in/gpath-get-project-at-home-91b0b1145"><img class="circle" src="link.png" width="50px" height="50px" href="#"></a></p>
+		</div
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="themes/dist/js/bootstrap.min.js"></script>
+    <script src="themes/assets/js/holder.js"></script>
+  </body>
+</html>
+

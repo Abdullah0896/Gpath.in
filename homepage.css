@@ -1,0 +1,13 @@
+#div1{width: 1340px; height: 185px; background: skyblue; margin: 0px;padding: 0px}
+#div2{width: 1340px; height: 185px; background: white; margin: 10px auto;padding-right: 20px}
+#div3{width: 1340px; height: 185px; background: skyblue; margin: 10px auto;padding-right: 20px}
+#div4{width: auto; height: 10px; float: right;}
+ul{list-style: none; padding: 0 ; margin: 0; }
+ul li{float: left;width: 150px; position: relative; text-align:left}
+ul li a{text-decoration: none;  display: block;}
+ul li a:hover{color: cornflowerblue; }
+ul ul{display: none; position: absolute;}
+ul li:hover > ul{display: list-item;}
+.class{width: 600px; height: 500px;}
+#particles-js { background: cornflowerblue;}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
